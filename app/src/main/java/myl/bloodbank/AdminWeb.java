@@ -21,13 +21,14 @@ public class AdminWeb extends AppCompatActivity {
         web.getSettings().setDomStorageEnabled(true);
         web.getSettings().getLoadsImagesAutomatically();
         web.setWebChromeClient(new WebChromeClient());
-
-        web.loadUrl("https://ikthss.000webhostapp.com/AppDept/login.php");
+        // admin web url like http://localhost/AppDept/login.php
+        web.loadUrl("");
 
 
         web.setWebViewClient(new WebViewClient(){
             public boolean shouldOverrideUrlLoading(WebView view){
-                view.loadUrl("https://ikthss.000webhostapp.com/AppDept/login.php");
+                // admin web url like http://localhost/AppDept/login.php
+                view.loadUrl("");
                 return false;
 
             }

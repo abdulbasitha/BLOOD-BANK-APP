@@ -12,9 +12,9 @@ import java.net.URL;
 
 public class JsonAct {
 
-//    String path="https://ikthss.tk/App/";
-    //be-a-part.php?name=basdfdfith&phno=54rfer5454&gp=a+&place=malapdfdfpuram
-        String path="https://ikthss.000webhostapp.com/AppShahbaz/";
+        // api response path (eg: http://localhost/MYL/)
+
+        String path="";
 
 
     public JsonAct()
