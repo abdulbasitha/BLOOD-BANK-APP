@@ -21,8 +21,15 @@ Build >> Build Apk(s)
   
 6. Select API folder and setup It in a webserver or localhost and create a database and import blood_bank_app.sql into Phpmyadmin
 
-7. Set String `path = "Your-url-paste-here"(eg:http://localhost/bloodbank/)` in `JsonAct.java` 
+7. Set String `path = "Your-url-paste-here" (eg:http://localhost/bloodbank/) or <your-api-files-directory>`  in `JsonAct.java` 
 
+8. In this project 4 activities :
+          
+          `Splash`:
+          `SignInWithGoogle`:
+          `MainActivity.java`:
+          `NeedBlood`:
+          
 
 
 
