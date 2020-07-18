@@ -27,7 +27,7 @@ Build >> Build Apk(s)
           
           `Splash`: Splash Screen Activity,
           `SignInWithGoogle`: SignIn Activity,
-          `MainActivity.java`: Donor Registration ,
+          `MainActivity`: Donor Registration ,
           `NeedBlood`: Retrieve Donor's List 
           
 
