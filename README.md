@@ -1,5 +1,5 @@
 
-# MYL-BLOOD-BANK
+# BLOOD-BANK-APP
 
 ## How to use?
 
@@ -16,7 +16,7 @@ Build >> Build Apk(s)
 4. Setup your Sigin With Google your own credentials
   [https://developers.google.com/identity/sign-in/android/start-integrating]
   
-    Q.How to get the SHA-1 fingerprint certificate in Android Studio for debug mode? 
+    Q.How to get the SHA-1 fingerprint certificate in Android Studio for debug mode? <br>
     Ans) <a href="https://stackoverflow.com/questions/27609442/how-to-get-the-sha-1-fingerprint-certificate-in-android-studio-for-debug-mode(https://stackoverflow.com/questions/27609442/how-to-get-the-sha-1-fingerprint-certificate-in-android-studio-for-debug-mode)"> SHA-1 fingerprint certificate</a>
   
 6. Select API folder and setup It in a webserver or localhost and cerate a dabase import database.sql into phpmyadmin
@@ -26,7 +26,7 @@ Build >> Build Apk(s)
 
 ## Preview
 <div>
-<img src="https://github.com/abdulbasitha/BLOOD-BANK-APP/blob/master/preview/1.jpg" width="30%" height="30%" style="padding-left: 50px;">
+<img src="https://github.com/abdulbasitha/BLOOD-BANK-APP/blob/master/preview/1.jpg" width="30%" height="30%" >
 <img src="https://github.com/abdulbasitha/BLOOD-BANK-APP/blob/master/preview/2.jpg" width="30%" height="30%">
 <img src="https://github.com/abdulbasitha/BLOOD-BANK-APP/blob/master/preview/3.jpg" width="30%" height="30%">
 </div>
@@ -37,9 +37,12 @@ Build >> Build Apk(s)
 </div>
 
 
+
 ## Support
 
 In case of any questions or problems, please contact me at:
 [basith@techzia.in](mailto:basith@techzia.in)
 
 ### Happy Coding 💖
+
+
