@@ -16,7 +16,7 @@ Build >> Build Apk(s)
 4. Setup sign in with Google with your own credentials.
   [https://developers.google.com/identity/sign-in/android/start-integrating]
   
-    Q.How to get the SHA-1 fingerprint certificate in Android Studio for debug mode? <br>
+    Q) How to get the SHA-1 fingerprint certificate in Android Studio for debug mode? <br>
     Ans) <a href="https://stackoverflow.com/questions/27609442/how-to-get-the-sha-1-fingerprint-certificate-in-android-studio-for-debug-mode(https://stackoverflow.com/questions/27609442/how-to-get-the-sha-1-fingerprint-certificate-in-android-studio-for-debug-mode)"> SHA-1 fingerprint certificate</a>
   
 6. Select the `API` folder,  set it up in a webserver or localhost, create a database and import `blood_bank_app.sql` into Phpmyadmin.
@@ -47,6 +47,6 @@ Build >> Build Apk(s)
 ## Support
 
 In case of any questions or problems, please contact me at:
-[basith@techzia.in](mailto:info@techzia.in)
+[info@techzia.in](mailto:info@techzia.in)
 
 ### Happy Coding 💖
