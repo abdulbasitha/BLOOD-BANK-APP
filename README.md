@@ -19,7 +19,7 @@ Build >> Build Apk(s)
     Q.How to get the SHA-1 fingerprint certificate in Android Studio for debug mode? 
     Ans) <a href="https://stackoverflow.com/questions/27609442/how-to-get-the-sha-1-fingerprint-certificate-in-android-studio-for-debug-mode(https://stackoverflow.com/questions/27609442/how-to-get-the-sha-1-fingerprint-certificate-in-android-studio-for-debug-mode)"> SHA-1 fingerprint certificate</a>
   
-6. Select API folder and setup It in a webserver or localhost and cerate a dabase import database.sql into 
+6. Select API folder and setup It in a webserver or localhost and cerate a dabase import database.sql into phpmyadmin
 
 
 
