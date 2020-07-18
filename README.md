@@ -36,7 +36,7 @@ Build >> Build Apk(s)
 <img src="https://github.com/abdulbasitha/BLOOD-BANK-APP/blob/master/preview/6.jpg" width="30%" height="30%">
 </div>
 
-## SQL
+
 
 ## Support
 
