@@ -52,7 +52,7 @@ Build >> Build Apk(s)
 ## Support
 
 In case of any questions or problems, please contact me at:
-[basith@techzia.in](mailto:info@techzia.in)
+[info@techzia.in](mailto:info@techzia.in)
 
 ### Happy Coding 💖
 
