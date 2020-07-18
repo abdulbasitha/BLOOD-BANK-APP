@@ -21,6 +21,7 @@ Build >> Build Apk(s)
   
 6. Select API folder and setup It in a webserver or localhost and cerate a dabase import database.sql into phpmyadmin
 
+7. upload the api files to server (api files are in API folder)
 
 
 
