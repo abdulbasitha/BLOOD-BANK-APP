@@ -7,7 +7,7 @@
     android:theme="@style/Need"
     android:orientation="vertical"
 
-    tools:context=".NeedBlood">
+    tools:context="techzia.bloodbank.app.NeedBlood">
 
     <LinearLayout
         android:id="@+id/first_need"

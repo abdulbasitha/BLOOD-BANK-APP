@@ -1,4 +1,4 @@
-package myl.bloodbank;
+package techzia.bloodbank.app;
 
 
 
@@ -19,14 +19,12 @@ import android.view.ContextThemeWrapper;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.inputmethod.InputMethodManager;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ProgressBar;
-import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -44,8 +42,7 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.util.ArrayList;
-import java.util.Calendar;
+import techzia.bloodbank.R;
 
 public class MainActivity extends AppCompatActivity {
     //SignInWithGoogle
@@ -232,9 +229,7 @@ public class MainActivity extends AppCompatActivity {
         admin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent wb= new Intent(getApplicationContext(), AdminWeb.class);
-                startActivity(wb);
-                finish();
+                Toast.makeText(MainActivity.this, "SetUp Admin Activity if you need", Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -699,10 +694,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 if(Go==null) {
-               /* Toast.makeText(getApplicationContext(),number,Toast.LENGTH_LONG).show();
-                Toast.makeText(getApplicationContext(),UserPlace, Toast.LENGTH_LONG).show();
-                Toast.makeText(getApplicationContext(),UserName, Toast.LENGTH_LONG).show();
-                Toast.makeText(getApplicationContext(),BloodeGroup, Toast.LENGTH_LONG).show();*/
 
                     url = "be-a-part.php?name=" + UserName + "&phno=" + number + "&age=" + ageNew + "&gp=" + BloodeGroup + "&place=" + UserPlace + "";
                     url = url.replace(" ", "%20");
@@ -729,9 +720,7 @@ public class MainActivity extends AppCompatActivity {
     }
     public void onBackPressed() {
      if(Slid==1) {
-         //Intent intent = new Intent(getApplicationContext(), Splash.class);
-         //startActivity(intent);
-         //finish();
+
          final AlertDialog.Builder builder = new AlertDialog.Builder(new ContextThemeWrapper(this, R.style.AlertDialogCustom));
          builder.setMessage("Are you sure want to exit?");
          builder.setNegativeButton("No", new DialogInterface.OnClickListener() {

@@ -1,4 +1,4 @@
-package myl.bloodbank;
+package techzia.bloodbank;
 
 import org.junit.Test;
 

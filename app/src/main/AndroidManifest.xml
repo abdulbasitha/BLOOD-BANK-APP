@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="myl.bloodbank">
+    package="techzia.bloodbank">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -17,14 +17,12 @@
         android:theme="@style/AppTheme"
         tools:replace="android:icon">
 
-        <activity android:name="myl.bloodbank.AdminWeb" />
-
         <meta-data
             android:name="sendotp.key"
             android:value="@string/sendotp_key" />
 
         <activity
-            android:name="myl.bloodbank.Splash"
+            android:name=".app.Splash"
             android:screenOrientation="locked">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -32,9 +30,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="myl.bloodbank.SignInWithGoogle"></activity>
+        <activity android:name=".app.SignInWithGoogle"></activity>
         <activity
-            android:name="myl.bloodbank.MainActivity"
+            android:name=".app.MainActivity"
             android:screenOrientation="locked" />
 
         <meta-data
@@ -42,7 +40,7 @@
             android:value="true" />
 
         <activity
-            android:name="myl.bloodbank.NeedBlood"
+            android:name=".app.NeedBlood"
             android:label="@string/title_activity_need_blood"
             android:screenOrientation="locked">
 

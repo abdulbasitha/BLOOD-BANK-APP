@@ -1,4 +1,4 @@
-package myl.bloodbank;
+package techzia.bloodbank.app;
 
 import android.app.AlertDialog;
 import android.content.Context;
@@ -16,6 +16,8 @@ import android.widget.TextView;
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
+
+import techzia.bloodbank.R;
 
 public class Splash extends MainActivity {
     private static int SPTIME=4000;

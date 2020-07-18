@@ -1,4 +1,4 @@
-package myl.bloodbank;
+package techzia.bloodbank.app;
 
 import android.util.Log;
 
@@ -12,7 +12,7 @@ import java.net.URL;
 
 public class JsonAct {
 
-        // api response path (eg: http://localhost/MYL/)
+        // api response path (eg: http://localhost/BloodBankApp/)
 
         String path="";
 

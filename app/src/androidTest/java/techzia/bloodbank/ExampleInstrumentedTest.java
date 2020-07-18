@@ -1,4 +1,4 @@
-package myl.bloodbank;
+package techzia.bloodbank;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
