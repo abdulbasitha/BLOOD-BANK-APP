@@ -46,7 +46,11 @@ Build >> Build Apk(s)
 
 ## Support
 
-In case of any questions or problems, please contact me at:
+In case of any queries or issues, please contact us at:
 [info@techzia.in](mailto:info@techzia.in)
+
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ### Happy Coding 💖
