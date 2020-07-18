@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MYL BLOOD BANK</string>
+    <string name="sendotp_key">265748AaPBPktIr5c7cce40</string>
+    <string name="title_activity_splash">Splash</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="title_activity_need_blood">Need Blood</string>
+
+    <string name="Test">AutoCompleteTextView Example</string>
+
+    <string-array name="countries">
+        <item>Afghanistan</item>
+        <item>Albania</item>
+        <item>Algeria</item>
+        <item>Andorra</item>
+        <item>Angola</item>
+    </string-array>
+</resources>

@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="10dp"
+    >
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_marginStart="10dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="13dp"
+        android:layout_marginBottom="10dp"
+        />
+
+
+
+
+    <Button
+        android:id="@+id/admin"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+
+
+        android:background="@drawable/admin"
+        android:fontFamily="@font/cantora_one"
+
+        android:textAllCaps="false"
+        android:textColor="#FFCE4310"
+        android:textSize="17sp" />
+</RelativeLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="152dp"
+            android:src="@drawable/splash"
+            android:layout_marginTop="50dp"
+
+
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/first_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="1dp"
+        android:gravity="bottom|center"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/baloo"
+            android:text="Welcome"
+            android:textColor="#1b1b1b"
+            android:textSize="35sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="15dp"
+            android:fontFamily="@font/cantora_one"
+            android:gravity="center_horizontal"
+            android:text="'There is no great joy than saving a soul.'\nThis is a platform designed for emergency blood assistance."
+            android:textColor="#606060"
+            android:textSize="17sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/signin"
+                android:layout_width="148dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/login_button_background"
+                android:fontFamily="@font/cantora_one"
+                android:text="NEED BLOOD ?"
+                android:textAllCaps="false"
+                android:textColor="#FFCE4310"
+                android:textSize="17sp" />
+
+
+            <Button
+                android:id="@+id/create_account"
+                android:layout_width="146dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/create_account_background"
+                android:fontFamily="@font/cantora_one"
+                android:text="BE A PART"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="17sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/second_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:gravity="bottom"
+
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/baloo"
+            android:text="Create account"
+            android:textColor="#1b1b1b"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/mobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="15dp"
+            android:fontFamily="@font/cantora_one"
+            android:text="Please enter your mobile number"
+
+            android:textColor="#606060"
+            android:textSize="17sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/edittext_phone"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/edittext_background"
+                android:fontFamily="@font/cantora_one"
+                android:hint="9876543210"
+                android:imeOptions="actionDone"
+                android:inputType="phone"
+                android:padding="10dp"
+
+                />
+
+            <ImageButton
+                android:id="@+id/input_phoneNumber"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/next_button_background"
+                android:src="@drawable/ic_arrow_forward_black_24dp"
+
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!--This is second layout-->
+
+    <LinearLayout
+        android:id="@+id/third_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:gravity="bottom"
+
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/baloo"
+            android:text="Your Age"
+            android:textColor="#1b1b1b"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/errorAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="15dp"
+            android:fontFamily="@font/cantora_one"
+            android:text="Please enter your Age below."
+
+            android:textColor="#606060"
+            android:textSize="17sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/age"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/edittext_background"
+                android:focusable="true"
+                android:focusedByDefault="true"
+                android:inputType="number"
+                android:fontFamily="@font/cantora_one"
+                android:hint="Enter Age"
+                android:imeOptions="actionDone"
+                android:padding="10dp" />
+
+            <ImageButton
+                android:id="@+id/ageNext"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/next_button_background"
+                android:src="@drawable/ic_arrow_forward_black_24dp"
+
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!--This is third layout-->
+    <LinearLayout
+        android:id="@+id/fourth_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:gravity="bottom"
+        android:orientation="vertical"
+
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/baloo"
+            android:text="Your Place"
+            android:textColor="#1b1b1b"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/Errorplace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="15dp"
+            android:fontFamily="@font/cantora_one"
+            android:text="Enter Your Place below "
+            android:textColor="#606060"
+            android:textSize="17sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/place"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/edittext_background"
+                android:focusable="true"
+                android:focusedByDefault="true"
+
+
+                android:fontFamily="@font/cantora_one"
+                android:hint="Enter Place"
+                android:imeOptions="actionDone"
+                android:padding="10dp" />
+
+            <ImageButton
+                android:id="@+id/placenext"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/next_button_background"
+                android:src="@drawable/ic_arrow_forward_black_24dp"
+
+                />
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+    <!--This is forth layout-->
+    <LinearLayout
+        android:id="@+id/five_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/baloo"
+            android:text="Your Name"
+            android:textColor="#1b1b1b"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/Errorname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="15dp"
+            android:fontFamily="@font/cantora_one"
+            android:text="Enter your name below"
+            android:textColor="#606060"
+            android:textSize="17sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/userName"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/edittext_background"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:fontFamily="@font/cantora_one"
+                android:hint="Enter name"
+                android:imeOptions="actionDone"
+                android:padding="10dp" />
+
+            <ImageButton
+                android:id="@+id/usernamenext"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/next_button_background"
+                android:src="@drawable/ic_arrow_forward_black_24dp"
+
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+    <!--This is fifth layout-->
+    <LinearLayout
+        android:id="@+id/sixth_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/baloo"
+            android:text="Choose Blood Type"
+            android:textColor="#1b1b1b"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/ErrorBlood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="15dp"
+            android:fontFamily="@font/cantora_one"
+            android:paddingTop="10dp"
+            android:text="Please Select Your Blood Group."
+
+            android:textColor="#606060"
+            android:textSize="17sp"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/groupAn"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/blood_group_button_background"
+                android:fontFamily="@font/cantora_one"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:text="A-"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/groupBn"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/blood_group_button_background"
+                android:fontFamily="@font/cantora_one"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:text="B-"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/groupABn"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/blood_group_button_background"
+                android:fontFamily="@font/cantora_one"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:text="AB-"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/groupOn"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/blood_group_button_background"
+                android:fontFamily="@font/cantora_one"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:text="O-"
+
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/groupA"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/blood_group_button_background"
+                android:fontFamily="@font/cantora_one"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:text="A+"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/groupB"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/blood_group_button_background"
+                android:fontFamily="@font/cantora_one"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:text="B+"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/groupAB"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/blood_group_button_background"
+                android:fontFamily="@font/cantora_one"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:text="AB+"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/groupO"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/blood_group_button_background"
+                android:fontFamily="@font/cantora_one"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:text="O+"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/groupContinue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/create_account_background"
+            android:fontFamily="@font/cantora_one"
+            android:text="CONTINUE"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+    <!--This is sixth layout-->
+    <LinearLayout
+        android:id="@+id/seventh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/active"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:fontFamily="@font/cantora_one"
+            android:text="I hereby declare that the details furnished above are true. I'm 18+ and willing to be a part of this charity."
+            android:textColor="#606060"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/request"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/create_account_background"
+            android:fontFamily="@font/cantora_one"
+            android:text="i  agree"
+            android:textColor="#fff"
+
+            android:textSize="18sp"
+            android:visibility="visible" />
+
+        <ProgressBar
+            android:id="@+id/Load"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+
+            android:background="@drawable/create_account_background"
+            android:theme="@style/Loading"
+
+            android:visibility="gone"
+
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

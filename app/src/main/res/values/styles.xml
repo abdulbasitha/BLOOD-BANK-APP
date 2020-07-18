@@ -1,0 +1,51 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/Load</item>
+    </style>
+
+
+    <style name="Need" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#ce4310</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/Load</item>
+    </style>
+
+    <style name="AlertDialogCustom" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!-- Used for the buttons -->
+        <item name="colorAccent">#df040c</item>
+        <!-- Used for the title and text -->
+        <item name="android:textColorPrimary">#050505</item>
+        <!-- Used for the background -->
+        <item name="android:background">#d5d6d5</item>
+    </style>
+
+    <style name="AlertDialogCustom1" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!-- Used for the buttons -->
+        <item name="colorAccent">#df040c</item>
+        <!-- Used for the title and text -->
+        <item name="android:textColorPrimary">#050505</item>
+        <!-- Used for the background -->
+        <item name="android:background">#d5d6d5</item>
+    </style>
+
+
+    <style name="Loading" >
+        <item name="colorAccent">@color/WHiTE</item>
+
+    </style>
+    <style name="Loading1" >
+        <item name="colorAccent">@color/Load</item>
+
+    </style>
+    <style name="SpinnerTheme" parent="android:Widget.Spinner">
+
+        <item name="android:background">@drawable/ic_arrow_down_black_24dp</item>
+    </style>
+</resources>
+

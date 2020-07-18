@@ -1,0 +1,124 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".SignInWithGoogle">
+
+
+
+
+
+
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_margin="20dp"
+
+    >
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="152dp"
+    android:src="@drawable/splash"
+    android:layout_marginTop="50dp"
+
+
+
+    />
+</LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+        <ProgressBar
+            android:id="@+id/Load"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+
+            android:theme="@style/Loading1"
+
+
+            android:visibility="visible"
+
+            />
+
+
+    </LinearLayout>
+
+<LinearLayout
+android:id="@+id/first_layout"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:layout_marginTop="20dp"
+android:layout_marginLeft="20dp"
+android:layout_marginRight="20dp"
+android:layout_marginBottom="1dp"
+android:gravity="bottom|center"
+android:orientation="vertical"
+android:visibility="visible">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="10dp"
+    android:fontFamily="@font/baloo"
+    android:text="Sign In"
+    android:textColor="#1b1b1b"
+    android:textSize="35sp" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="15dp"
+    android:fontFamily="@font/cantora_one"
+    android:gravity="center_horizontal"
+    android:text="'There is no great joy than saving a soul.'\nThis is a platform designed for emergency blood assistance."
+    android:textColor="#606060"
+    android:textSize="17sp" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="20dp"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/sign_in_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/login_button_background"
+
+        android:drawableLeft="@drawable/google"
+        android:fontFamily="@font/cantora_one"
+        android:text="Sign in with Google"
+        android:paddingRight="50dp"
+
+        android:textAllCaps="false"
+        android:textColor="#FFCE4310"
+        android:textSize="17sp" />
+
+
+
+
+</LinearLayout>
+
+</LinearLayout>
+</LinearLayout>
