@@ -26,7 +26,7 @@ Build >> Build Apk(s)
 
 ## Preview
 <div>
-<img src="https://github.com/abdulbasitha/BLOOD-BANK-APP/blob/master/preview/1.jpg" width="30%" height="30%" style="padding-left: 50px;">
+<img src="https://github.com/abdulbasitha/BLOOD-BANK-APP/blob/master/preview/1.jpg" width="30%" height="30%" >
 <img src="https://github.com/abdulbasitha/BLOOD-BANK-APP/blob/master/preview/2.jpg" width="30%" height="30%">
 <img src="https://github.com/abdulbasitha/BLOOD-BANK-APP/blob/master/preview/3.jpg" width="30%" height="30%">
 </div>
