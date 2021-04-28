@@ -2,7 +2,7 @@
 # BLOOD-BANK-APP
 
 ## How to use?
-# For IOS APP - https://github.com/abdulbasitha/BLOOD-BANK-APP
+> For IOS APP - https://github.com/abdulbasitha/BLOOD-BANK-APP
 1. Download or clone this repo.
 
 2. Open it in Android Studio.
